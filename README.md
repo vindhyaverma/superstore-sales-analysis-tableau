@@ -1,27 +1,29 @@
-Retail Sales & Profitability Analysis (Tableau Dashboard)
-Project Overview
+Superstore-Sales-Analysis
 
-This project analyzes retail sales performance using the Sample Superstore dataset.
-The objective is to identify patterns in sales, profitability, discounts, and regional performance to support better business decisions.
+Sales & Profitability Analysis using Tableau Dashboard
 
-An interactive Tableau dashboard was developed to explore:
+📌 Project Overview
 
-Product performance
-Customer segments
-Regional trends
-Discount impact on profit
-Business Problem
+This project focuses on analyzing retail sales performance using the Sample Superstore dataset.
+It demonstrates how data visualization and business analytics can help companies understand sales trends, profitability, and regional performance.
 
-Retail companies often struggle to understand:
+An interactive Tableau dashboard was built to explore sales patterns, profit drivers, discount impact, and geographical performance across the United States.
 
-Which products generate the most revenue
-Which regions contribute the most profit
-How discount strategies impact profitability
-Which products or states are loss-making
+🎯 Business Problem
 
-This analysis helps identify key drivers of sales and profit.
+Retail companies need data insights to:
 
-Dataset
+Plan sales strategies
+
+Improve profitability
+
+Optimize discount strategies
+
+Identify loss-making products or regions
+
+This project analyzes historical sales data to help businesses understand what drives revenue and profit.
+
+📊 Dataset
 
 Dataset used: Sample Superstore
 
@@ -38,9 +40,9 @@ Region
 State
 Customer Segment
 
-The dataset contains thousands of sales records across the United States.
+The dataset includes thousands of sales records across multiple regions in the United States.
 
-Tools Used
+🛠️ Tools & Technologies
 
 Tableau
 
@@ -52,37 +54,116 @@ Business Analytics
 
 Dashboard Design
 
-Dashboard Components
+🔧 Project Workflow
+Data Understanding
 
-Sales Analysis
+Explored retail transaction data
 
-Total Sales by Category
+Identified key business variables such as sales, profit, discount, and region
 
-Sales by Region
+Data Analysis
 
-Top 10 Sub-Categories by Sales
+Analyzed:
 
-Profitability Analysis
+Sales performance by category
+
+Profit contribution by customer segment
+
+Regional sales distribution
+
+Impact of discount on profitability
+
+Visualization
+
+Created multiple charts including:
+
+Bar charts
+
+Scatter plots
+
+Stacked charts
+
+Maps
+
+Trend lines
+
+Dashboard Design
+
+Built an interactive Tableau dashboard combining multiple visualizations to provide insights quickly.
+
+Filters allow exploration by category, region, and segment.
+
+📈 Key Insights
+
+Technology generates the highest total sales.
+
+Consumer segment contributes the highest profit.
+
+Higher discount levels often lead to negative profit transactions.
+
+The West region contributes the highest profit overall.
+
+Phones and Chairs are among the top-performing sub-categories.
+
+Some states generate losses despite having strong sales.
+
+💡 Business Insights
+
+Businesses should reduce heavy discounting on low-margin products.
+
+High-performing products like Phones and Chairs should receive more marketing focus.
+
+Companies should analyze operational inefficiencies in loss-making states.
+
+Expanding sales efforts in profitable regions can improve overall revenue.
+
+📊 Dashboard Features
+
+Sales by Category
 
 Profit by Customer Segment
 
-Sales vs Profit Scatter Plot
+Top 10 Sub-Categories by Sales
 
 Discount vs Profit Analysis
 
-Regional Analysis
-
-Profit Contribution by Region
+Sales vs Profit Scatter Plot
 
 Profit by State Map
 
-Top and Bottom Performing States
-
-Trend Analysis
-
 Monthly Sales Trend
-
-Profit Over Time
 
 Sales Forecast
 
+Interactive Filters
+
+📂 Project Structure
+superstore-sales-analysis-tableau
+│
+├── dashboard
+│   └── superstore_dashboard.twbx
+│
+├── dataset
+│   └── sample_superstore.xlsx
+│
+├── images
+│   └── dashboard_screenshot.png
+│
+└── README.md
+🚀 How to Use
+
+Download the Tableau workbook
+
+Open the file using Tableau Desktop
+
+Explore the dashboard using filters and interactive charts
+
+🔗 Dataset Source
+
+Sample Superstore Dataset (Tableau Sample Data)
+
+📢 Author
+
+Created by Vindhya Verma
+Artificial Intelligence and Data Science
+IIT Jodhpur
